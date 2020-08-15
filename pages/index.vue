@@ -1,27 +1,14 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        pxh.life
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <div class="welcome">
+        <p>欢迎来到我的站点</p>
+        <p>我是一名使用PHP和GO的后端工程师</p>
+        <p>这里用来练习前端</p>
+      </div>
+      <div class="contact">
+        <p>这里才刚刚开始，你可以在下面这些地方找到我：</p>
+        <p><a href="https://github.com/panxianhai">Github</a></p>
       </div>
     </div>
   </div>
@@ -48,33 +35,10 @@ export default Vue.extend({})
   text-align: center;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.welcome {
+  font-size: large;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.contact {
+  margin-top: 1rem;
 }
 </style>
